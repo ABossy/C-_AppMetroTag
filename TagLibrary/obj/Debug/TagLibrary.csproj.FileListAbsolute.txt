@@ -1,0 +1,9 @@
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\bin\Debug\TagLibrary.dll
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\bin\Debug\TagLibrary.pdb
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\bin\Debug\Newtonsoft.Json.dll
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\bin\Debug\Newtonsoft.Json.xml
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csprojAssemblyReference.cache
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csproj.CoreCompileInputs.cache
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csproj.CopyComplete
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.dll
+c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.pdb

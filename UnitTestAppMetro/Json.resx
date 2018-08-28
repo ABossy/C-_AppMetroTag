@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="json12" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:12",
+    "shortName": "12",
+    "longName": "Eybens Maisons Neuves / Saint-Martin-d'Hères Les Alloves",
+    "color": "009930",
+    "textColor": "FFFFFF",
+    "mode": "BUS",
+    "type": "PROXIMO"
+  }
+]</value>
+  </data>
+  <data name="json13" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:13",
+    "shortName": "13",
+    "longName": "Meylan Lycée du Grésivaudan / Poisat Prémol",
+    "color": "00BC9E",
+    "textColor": "FFFFFF",
+    "mode": "BUS",
+    "type": "PROXIMO"
+  }
+]</value>
+  </data>
+  <data name="json16" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:16",
+    "shortName": "16",
+    "longName": "MEYLAN Lycée du Grésivaudan / CORENC Montfleury / PONT-DE-CLAIX Gendarmerie",
+    "color": "739ECC",
+    "textColor": "FFFFFF",
+    "mode": "BUS",
+    "type": "PROXIMO"
+  }
+]</value>
+  </data>
+  <data name="json57" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:57",
+    "shortName": "57",
+    "longName": "GRENOBLE Victor Hugo / ST ISMIER Bois Français",
+    "color": "522E91",
+    "textColor": "FFFFFF",
+    "mode": "BUS",
+    "type": "FLEXO"
+  }
+]</value>
+  </data>
+  <data name="json6060" xml:space="preserve">
+    <value>[
+  {
+    "id": "C38:6060",
+    "shortName": "6060",
+    "longName": "CHAMBERY-CHAPAREILLAN-GRENOBLE",
+    "color": "FCCD51",
+    "textColor": "000000",
+    "mode": "BUS",
+    "type": "C38"
+  }
+]</value>
+  </data>
+  <data name="json6200" xml:space="preserve">
+    <value>[
+  {
+    "id": "C38:6200",
+    "shortName": "6200",
+    "longName": "ALLEVARD-GRENOBLE",
+    "color": "FCCD51",
+    "textColor": "000000",
+    "mode": "BUS",
+    "type": "C38"
+  }
+]</value>
+  </data>
+  <data name="jsonC1" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:C1",
+    "shortName": "C1",
+    "longName": "GRENOBLE Cité Jean Macé / MEYLAN Maupertuis",
+    "color": "FFE000",
+    "textColor": "000000",
+    "mode": "BUS",
+    "type": "CHRONO"
+  }
+]</value>
+  </data>
+  <data name="jsonC4" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:C4",
+    "shortName": "C4",
+    "longName": "Grenoble Victor Hugo / Eybens Le Verderet",
+    "color": "FFC900",
+    "textColor": "000000",
+    "mode": "BUS",
+    "type": "CHRONO"
+  }
+]</value>
+  </data>
+  <data name="jsonEXP1" xml:space="preserve">
+    <value>[
+  {
+    "id": "C38:EXP1",
+    "shortName": "EXP1",
+    "longName": "EXPRESS VOIRON-GRENOBLE-CROLLES (EXP-1)",
+    "color": "FCCD51",
+    "textColor": "000000",
+    "mode": "BUS",
+    "type": "C38"
+  }
+]</value>
+  </data>
+  <data name="jsonEXP2" xml:space="preserve">
+    <value>[
+  {
+    "id": "C38:EXP2",
+    "shortName": "EXP2",
+    "longName": "EXPRESS CHAMP PRES FROGES-VOREPPE (EXP-2)",
+    "color": "FCCD51",
+    "textColor": "000000",
+    "mode": "BUS",
+    "type": "C38"
+  }
+]</value>
+  </data>
+  <data name="JsonNearYou" xml:space="preserve">
+    <value>[
+  {
+    "id": "SEM:1986",
+    "name": "GRENOBLE, CASERNE DE BONNE",
+    "lon": 5.72533,
+    "lat": 45.18506,
+    "lines": [
+      "SEM:13",
+      "SEM:16",
+      "SEM:C4",
+      "SEM:13",
+      "SEM:16",
+      "SEM:C4"
+    ]
+  },
+  {
+    "id": "SEM:1987",
+    "name": "GRENOBLE, CASERNE DE BONNE",
+    "lon": 5.72542,
+    "lat": 45.18509,
+    "lines": [
+      "SEM:16",
+      "SEM:16"
+    ]
+  },
+  {
+    "id": "SEM:0753",
+    "name": "GRENOBLE, DOCTEUR MARTIN",
+    "lon": 5.72686,
+    "lat": 45.1878,
+    "lines": [
+      "SEM:C1",
+      "SEM:57",
+      "SEM:C4",
+      "SEM:C1",
+      "SEM:57",
+      "SEM:C4"
+    ]
+  },
+  {
+    "id": "SEM:0754",
+    "name": "GRENOBLE, DOCTEUR MARTIN",
+    "lon": 5.72728,
+    "lat": 45.18731,
+    "lines": [
+      "SEM:C1",
+      "SEM:57",
+      "SEM:C4",
+      "SEM:C1",
+      "SEM:57",
+      "SEM:C4"
+    ]
+  },
+  {
+    "id": "SEM:4331",
+    "name": "GRENOBLE, DOCTEUR MARTIN",
+    "lon": 5.72832,
+    "lat": 45.18738,
+    "lines": [
+      "SEM:13",
+      "SEM:16",
+      "SEM:12",
+      "SEM:13",
+      "SEM:16",
+      "SEM:12"
+    ]
+  },
+  {
+    "id": "SEM:4332",
+    "name": "GRENOBLE, DOCTEUR MARTIN",
+    "lon": 5.72797,
+    "lat": 45.18737,
+    "lines": [
+      "SEM:13",
+      "SEM:16",
+      "SEM:12",
+      "SEM:13",
+      "SEM:16",
+      "SEM:12"
+    ]
+  },
+  {
+    "id": "C38:12812",
+    "name": "GRENOBLE, CHAVANT",
+    "lon": 5.73103,
+    "lat": 45.18551,
+    "lines": [
+      "C38:EXP2",
+      "C38:EXP1",
+      "C38:6200",
+      "C38:6060",
+      "C38:EXP2",
+      "C38:EXP1",
+      "C38:6200",
+      "C38:6060"
+    ]
+  }
+]</value>
+  </data>
+</root>
