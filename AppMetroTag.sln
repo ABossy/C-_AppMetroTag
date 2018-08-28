@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAppMetro", "UnitTes
 		{ABE0A66A-4AF8-4EE5-AE19-0D00001BBA4D} = {ABE0A66A-4AF8-4EE5-AE19-0D00001BBA4D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMetroTag", "WpfAppMetroTag\WpfAppMetroTag.csproj", "{5FE4C9BD-EFF7-432E-B3C3-9F8CEF3CCE14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{29EDF2AA-86DF-4681-816A-643DC20869FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29EDF2AA-86DF-4681-816A-643DC20869FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29EDF2AA-86DF-4681-816A-643DC20869FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE4C9BD-EFF7-432E-B3C3-9F8CEF3CCE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE4C9BD-EFF7-432E-B3C3-9F8CEF3CCE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE4C9BD-EFF7-432E-B3C3-9F8CEF3CCE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE4C9BD-EFF7-432E-B3C3-9F8CEF3CCE14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
