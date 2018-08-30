@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:MyViews="clr-namespace:WpfAppMetroTag.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="500" Width="800">
+    <Grid Background="SteelBlue">
         <MyViews:tagView x:Name = "tagViewControl" Loaded = "tagViewControl_Loaded"/>
+        
     </Grid>
 </Window>

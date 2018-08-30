@@ -5,19 +5,44 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:MyViews="clr-namespace:WpfAppMetroTag.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+             d:DesignHeight="1000" d:DesignWidth="1000">
+    <Grid Background="LightYellow">
+        <StackPanel HorizontalAlignment="Center">
+            <Image Source="https://www.tag.fr/images/GBI_SEMITAG/logoFooter.png" Height="300" Width="300"/>
+            <TextBox Height="25" Width="200" Margin="10,14,0,0">Longitude</TextBox>
+            <TextBox Height="25" Width="200" Margin="8,14,0,0">Latitude</TextBox>
+            <TextBox Height="25" Width="200" Margin="8,14,0,0">Rayon</TextBox>
+            <Button Height="50" Width="100" Margin="8,14,0,0">Rechercher</Button> 
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" Margin="0,10,60,10">
+            <Image Source="https://i.ytimg.com/vi/-FOOnucpgxc/maxresdefault.jpg" Height="600" Width="600"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" Margin="0,400,60,10">
+                <Image Source="https://img.fifa.com/mm/photo/tournament/destination/02/90/52/91/2905291_full-lnd.jpg" Height="600" Width="600"/>
+        </StackPanel>
         <StackPanel HorizontalAlignment = "Left">
-
-            <ItemsControl ItemsSource = "{Binding Path = Routes}">
+            <ItemsControl ItemsSource = "{Binding DataView}" HorizontalAlignment="Left" Margin="8,14,0,0">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Orientation = "Horizontal">
-                            <TextBlock Text = "{Binding Path = LongName}" Width = "100" Margin = "0 5 3 5"/>
-                            <TextBlock Text = "{Binding Path = Mode}" Margin = "0 5 3 5"/>
+                        <StackPanel Orientation = "Horizontal" HorizontalAlignment="Left" Margin="8,14,0,0">
+                            <ListBoxItem Content = "{Binding ArretName}" Width = "auto" />
+                            <Image Source="https://png.icons8.com/color/50/000000/bus.png"/>
+                            <Image Source="https://png.icons8.com/color/50/000000/tram.png"/>
+                            <ItemsControl ItemsSource = "{Binding ArretLigne}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left">
+                                            <ListBoxItem Content="{Binding Id}"/>
+                                            <ListBoxItem Content="{Binding Mode}"/>
+                                            <ListBoxItem Content="{Binding LongName}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
                         </StackPanel>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
+
             </ItemsControl>
 
         </StackPanel>

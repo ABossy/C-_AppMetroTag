@@ -45,11 +45,27 @@ namespace TagLibrary
                 }
             }
 
+
+
             return listeStationUnique;
-        }             
-         
+        }
+
+        public List<DictionaryToList> GetDataList(Dictionary<string, List<ChampRoute>> listeStationUnique)
+        {
+            List<DictionaryToList> result = new List<DictionaryToList>();
+
+            foreach (KeyValuePair<string, List<ChampRoute>> kvp in listeStationUnique)
+            {
+                result.Add(new DictionaryToList(kvp.Key, kvp.Value));
+            }
+
+            return result;
+        }
+
+        
+
         public ChampRoute GetRoute(string line)
-        { 
+        {
             string responseFromServer2 = _IApiRequest.Request(string.Format("https://data.metromobilite.fr/api/routers/default/index/routes?codes={0}", line));
             ChampRoute[] routes = JsonConvert.DeserializeObject<ChampRoute[]>(responseFromServer2);
             return routes[0];

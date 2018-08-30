@@ -7,3 +7,12 @@ c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.c
 c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csproj.CopyComplete
 c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.dll
 c:\users\astrid.bossy\source\repos\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.pdb
+P:\C#tag\AppMetroTag\TagLibrary\bin\Debug\TagLibrary.dll
+P:\C#tag\AppMetroTag\TagLibrary\bin\Debug\TagLibrary.pdb
+P:\C#tag\AppMetroTag\TagLibrary\bin\Debug\Newtonsoft.Json.dll
+P:\C#tag\AppMetroTag\TagLibrary\bin\Debug\Newtonsoft.Json.xml
+P:\C#tag\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csprojAssemblyReference.cache
+P:\C#tag\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csproj.CoreCompileInputs.cache
+P:\C#tag\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.csproj.CopyComplete
+P:\C#tag\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.dll
+P:\C#tag\AppMetroTag\TagLibrary\obj\Debug\TagLibrary.pdb

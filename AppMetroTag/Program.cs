@@ -13,7 +13,10 @@ namespace AppMetroTag
         static void Main(string[] args)
         {
             Station station = new Station();
-            WriteInConsole(station.GetStation());
+            Dictionary<string, List<ChampRoute>> stationResult = station.GetStation();
+            WriteInConsole(stationResult);
+            station.GetDataList(stationResult);
+
         }
 
         private static void WriteInConsole(Dictionary<string, List<ChampRoute>> listeStationUnique)

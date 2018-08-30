@@ -9,17 +9,19 @@ using TagLibrary;
 
 namespace WpfAppMetroTag.ViewModel
 {
-   public class TagViewModel
+   public class TagViewModel 
     {
-        public TagViewModel()
-        {
-            Routes = new ObservableCollection<ChampRoute>();
-            Routes.Add(new ChampRoute { LongName = "C", Mode = "Tram" });
-            Routes.Add(new ChampRoute { LongName = "16", Mode = "Bus" });
-            Routes.Add(new ChampRoute { LongName = "13", Mode = "Bus" });
-        }
+        
 
-        public ObservableCollection<ChampRoute> Routes
+      public TagViewModel()
+      {
+            Station stationData = new Station(); // initialise un nouyvel objet
+            Dictionary<string, List<ChampRoute>> stationResult = stationData.GetStation(); //je récupere les données traitées de type dictionnaire.
+            List<DictionaryToList> champListe = stationData.GetDataList(stationResult); // je les transforme en liste de type dictionarytolist
+            DataView = new ObservableCollection<DictionaryToList>(champListe); // je rend accessible ma liste.
+
+        }
+        public ObservableCollection<DictionaryToList> DataView
         {
             get;
             set;
