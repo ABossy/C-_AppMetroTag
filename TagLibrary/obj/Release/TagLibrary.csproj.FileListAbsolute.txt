@@ -1,0 +1,9 @@
+P:\C#tag\AppMetroTag\TagLibrary\bin\Release\TagLibrary.dll
+P:\C#tag\AppMetroTag\TagLibrary\bin\Release\TagLibrary.pdb
+P:\C#tag\AppMetroTag\TagLibrary\bin\Release\Newtonsoft.Json.dll
+P:\C#tag\AppMetroTag\TagLibrary\bin\Release\Newtonsoft.Json.xml
+P:\C#tag\AppMetroTag\TagLibrary\obj\Release\TagLibrary.csprojAssemblyReference.cache
+P:\C#tag\AppMetroTag\TagLibrary\obj\Release\TagLibrary.csproj.CoreCompileInputs.cache
+P:\C#tag\AppMetroTag\TagLibrary\obj\Release\TagLibrary.csproj.CopyComplete
+P:\C#tag\AppMetroTag\TagLibrary\obj\Release\TagLibrary.dll
+P:\C#tag\AppMetroTag\TagLibrary\obj\Release\TagLibrary.pdb

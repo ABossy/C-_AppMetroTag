@@ -14,7 +14,7 @@ namespace WpfAppMetroTag.Model
 
         private static void affichage(Station station)
         {
-            station.GetStation();
+            //station.GetStation();
         }
 
        

@@ -33,7 +33,7 @@ namespace UnitTestAppMetro
             mockIApiRequest.Expects.One.Method(_ => _.Request("")).WithAnyArguments().WillReturn(Json.json6200);
             mockIApiRequest.Expects.One.Method(_ => _.Request("")).WithAnyArguments().WillReturn(Json.json6060);
             Station test = new Station(mockIApiRequest.MockObject);
-            Dictionary<string, List<ChampRoute>> result = test.GetStation();
+            Dictionary<string, List<ChampRoute>> result = test.GetStation("5.727231", "45.185270", "600");
 
             Assert.AreEqual(3, result.Count);
             Assert.IsTrue(result.ContainsKey("GRENOBLE, CASERNE DE BONNE"));

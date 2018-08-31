@@ -55,6 +55,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\DataTag.cs" />
+    <Compile Include="RelayCommand.cs" />
     <Compile Include="ViewModel\TagViewModel.cs" />
     <Compile Include="Views\tagView.xaml.cs">
       <DependentUpon>tagView.xaml</DependentUpon>

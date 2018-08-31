@@ -22,9 +22,9 @@ namespace TagLibrary
         {
         }
 
-        public Dictionary<string, List<ChampRoute>> GetStation()
+        public Dictionary<string, List<ChampRoute>> GetStation(String latitude, String longitude,String rayon)
         {
-            string responseFromServer = _IApiRequest.Request("https://data.metromobilite.fr/api/linesNear/json?y=45.185270&x=5.727231&dist=600&details=true");
+            string responseFromServer = _IApiRequest.Request(String.Format("https://data.metromobilite.fr/api/linesNear/json?y={0}&x={1}&dist={2}&details=true", latitude,longitude,rayon));
             List<ChampApi> stations = JsonConvert.DeserializeObject<List<ChampApi>>(responseFromServer);
 
             Dictionary<string, List<ChampRoute>> listeStationUnique = new Dictionary<string, List<ChampRoute>>();

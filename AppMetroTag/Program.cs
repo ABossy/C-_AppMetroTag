@@ -13,7 +13,7 @@ namespace AppMetroTag
         static void Main(string[] args)
         {
             Station station = new Station();
-            Dictionary<string, List<ChampRoute>> stationResult = station.GetStation();
+            Dictionary<string, List<ChampRoute>> stationResult = station.GetStation("5.727231", "45.185270", "600");
             WriteInConsole(stationResult);
             station.GetDataList(stationResult);
 
